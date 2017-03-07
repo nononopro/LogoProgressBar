@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LogoProgressBar">
+        <attr name="normal_background" format="reference"/>
+        <attr name="full_background" format="reference"/>
+        <attr name="max" format="integer"/>
+        <attr name="progress" format="integer"/>
+        <attr name="orientation" format="enum">
+        <enum name="round" value="1" />
+        <enum name="horizontal" value="2" />
+        <enum name="vertical" value="3" />
+        </attr>
+    </declare-styleable>
+</resources>
